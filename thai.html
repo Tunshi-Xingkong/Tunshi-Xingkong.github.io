@@ -1,13 +1,13 @@
-
 <!DOCTYPE html>
 <html lang="th">
 <head>
-  <meta charset="utf-8"/>  
-  <meta name="viewport" content="width=device-width, initial-scale=1" />  
-  <title>Tunshi Xingkong – มหาศึกล้างพิภพ ตอนที่ 1-178 พากย์ไทย</title>  
-  <link href="https://img2.pic.in.th/pic/039b1c3dd878efaf74.png" rel="icon" type="image/png"/>  
-  <link rel="canonical" href="https://tunshi-xingkong.github.io/thai.html">  
+  <link rel="canonical" href="https://tunshi-xingkong.github.io/" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tunshi Xingkong – มหาศึกล้างพิภพ ตอนที่ 1-180 พากย์ไทย</title>
+  <link rel="icon" href="https://img2.pic.in.th/pic/039b1c3dd878efaf74.png" type="image/png" />
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
     body {
       margin: 0;
       font-family: 'Kanit', sans-serif;
@@ -27,9 +27,6 @@
       font-weight: bold;
       color: white;
       text-decoration: none;
-    }
-    .menu-container {
-      position: relative;
     }
     nav {
       display: flex;
@@ -59,38 +56,46 @@
       margin: 4px 0;
       border-radius: 2px;
     }
-    @media (max-width: 600px) {
-      nav {
-        display: none;
-        position: absolute;
-        top: 100%;
-        right: 0;
-        background-color: #ff3d00;
-        flex-direction: column;
-        align-items: flex-end;
-        min-width: 150px;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-        border-radius: 0 0 8px 8px;
-        overflow: hidden;
-      }
-      nav.active {
+    
+@media(max-width: 600px) {
+  nav {
+    display: none;
+    flex-direction: column;
+    background-color: #ff3d00;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    width: 200px;
+    z-index: 100;
+    border-radius: 8px;
+    padding: 10px;
+    align-items: flex-start;
+  }
+  nav.active {
+    display: flex;
+  }
+  nav a {
+    padding: 10px;
+    text-align: left;
+  }
+  .menu-toggle {
+    display: flex;
+  }
+}
+nav.active {
         display: flex;
       }
       .menu-toggle {
         display: flex;
       }
-      nav a {
-        text-align: right;
-        padding: 10px 20px;
-        width: 100%;
-        box-sizing: border-box;
-      }
     }
+
     .container {
       max-width: 1000px;
       margin: 0 auto;
       padding: 20px 15px;
     }
+
     .anime-img {
       max-width: 100%;
       height: auto;
@@ -98,13 +103,19 @@
       display: block;
       margin: 0 auto 20px;
       box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+      transition: transform 0.3s ease;
     }
+    .anime-img:hover {
+      transform: scale(1.03);
+    }
+
     .anime-title {
       font-size: 2rem;
       text-align: center;
       color: #ff7043;
       margin-bottom: 10px;
     }
+
     .anime-desc {
       max-width: 800px;
       margin: 0 auto 40px;
@@ -113,11 +124,13 @@
       color: #ddd;
       font-size: 1rem;
     }
+
     h2 {
       color: #ffa07a;
       text-align: center;
       margin: 40px 0 20px;
     }
+
     .episode-list {
       list-style: none;
       padding: 0;
@@ -127,6 +140,7 @@
       grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
       gap: 10px;
     }
+
     .episode-list li a {
       display: block;
       background-color: #222;
@@ -138,10 +152,12 @@
       text-decoration: none;
       transition: background 0.2s, transform 0.2s;
     }
+
     .episode-list li a:hover {
       background-color: #333;
       transform: translateY(-2px);
     }
+
     footer {
       text-align: center;
       padding: 20px;
@@ -152,28 +168,33 @@
   </style>
 </head>
 <body>
-  <header>
-    <a class="logo" href="thai">Tunshi Xingkong</a>
-    <div class="menu-container">
-      <div class="menu-toggle" id="menuToggle" aria-label="Toggle menu" role="button" tabindex="0">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <nav id="navMenu">
-        <a href="contact.html">ติดต่อแจ้งปัญหา</a>
-      </nav>
-    </div>
-  </header>
-  <div class="container">
-    <h1 class="anime-title">Tunshi Xingkong – มหาศึกล้างพิภพ ตอนที่ 1-178 พากย์ไทย</h1>
-    <img class="anime-img" src="https://img5.pic.in.th/file/secure-sv1/Tunshi-Xingkong-2.jpg" alt="Tunshi Xingkong">
-    <p class="anime-desc">
-      อยู่มาวันหนึ่งได้มีไวรัส RR ที่ไม่รู้จักปรากฏขึ้นบนโลก และโลกก็ตกอยู่ในหายนะ สัตว์ที่ติดเชื้อกลายพันธุ์เป็นสัตว์ประหลาดที่น่ากลัว...
-    </p>
-    <h2>รายการตอน Tunshi Xingkong</h2>
-    <ul class="episode-list">
-      <li><a href="/">ดูแบบซับไทยคลิ๊ก</a></li>
+
+<header>
+  <a href="https://anime-bk.com" class="logo">ANIME BK</a>
+
+  <div class="menu-toggle" id="menuToggle" aria-label="Toggle menu" role="button" tabindex="0">
+    <span></span><span></span><span></span>
+  </div>
+  <nav id="navMenu" role="navigation">
+    <a href="https://anime-bk.com/">หน้าแรก</a>
+    <a href="https://anime-bk.com/thai">อนิเมะพากย์ไทย</a>
+    <a href="https://anime-bk.com/sub">อนิเมะซับไทย</a>
+    <a href="https://anime-bk.com/chinese">อนิเมะจีน</a>
+    <a href="https://anime-bk.com/themovie">เดอะมูฟวี่</a>
+    <a href="https://anime-bk.com/contact">ติดต่อแจ้งปัญหา</a>
+  </nav>
+</header>
+
+<div class="container">
+  <h1 class="anime-title">Tunshi Xingkong – มหาศึกล้างพิภพ ตอนที่ 1-180 พากย์ไทย</h1>
+  <img alt="Tunshi Xingkong – มหาศึกล้างพิภพ" class="anime-img" src="https://img5.pic.in.th/file/secure-sv1/Tunshi-Xingkong-2.jpg"/>
+  <p class="anime-desc">
+    อยู่มาวันหนึ่งได้มีไวรัส RR ที่ไม่รู้จักปรากฏขึ้นบนโลก และโลกก็ตกอยู่ในหายนะ สัตว์ที่ติดเชื้อกลายพันธุ์เป็นสัตว์ประหลาดที่น่ากลัว...
+  </p>
+  <h2>รายการตอน Tunshi Xingkong</h2>
+  <ul class="episode-list">
+    <li><a href="tunshi-xingkong-ep179-thai.html">ตอนที่ 179</a></li>
+    <li><a href="tunshi-xingkong-ep178-thai.html">ตอนที่ 178</a></li>
       <li><a href="tunshi-xingkong-ep177-thai.html">ตอนที่ 177</a></li>
 <li><a href="tunshi-xingkong-ep176-thai.html">ตอนที่ 176</a></li>
 <li><a href="tunshi-xingkong-ep175-thai.html">ตอนที่ 175</a></li>
@@ -352,23 +373,55 @@
 <li><a href="tunshi-xingkong-ep2-thai.html">ตอนที่ 2</a></li>
 <li><a href="tunshi-xingkong-ep1-thai.html">ตอนที่ 1</a></li>
     </ul>
-  </div>
-  <footer>
-    © 2025 Tunshi Xingkong — ดูอนิเมะ มหาศึกล้างพิภพ พากย์ไทย ทุกตอน
-  </footer>
-  <script>
-    const menuToggle = document.getElementById('menuToggle');
-    const navMenu = document.getElementById('navMenu');
-    menuToggle.addEventListener('click', () => {
+</div>
+
+<footer>
+  © 2025 ANIME BK — ดูอนิเมะออนไลน์ อนิเมะ BK พากย์ไทย ซับไทย ครบทุกแนว
+</footer>
+
+<script>
+  const menuToggle = document.getElementById('menuToggle');
+  const navMenu = document.getElementById('navMenu');
+  menuToggle.addEventListener('click', () => navMenu.classList.toggle('active'));
+  menuToggle.addEventListener('keydown', (e) => {
+    if(e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
       navMenu.classList.toggle('active');
-    });
-    menuToggle.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter' || e.key === ' ') {
-        e.preventDefault();
-        navMenu.classList.toggle('active');
-      }
-    });
-  </script>
+    }
+  });
+</script>
+
+<!-- Histats.com START -->
+<style>
+#histats_wrapper, #histatsC, #histats_counter {
+  display: none !important;
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
+}
+</style>
+<div id="histats_wrapper">
+  <div id="histats_counter"></div>
+</div>
+<script type="text/javascript">
+  var _Hasync = _Hasync || [];
+  _Hasync.push(['Histats.startgif', '1,4944258,4,10047,""']);
+  _Hasync.push(['Histats.fasi', '1']);
+  _Hasync.push(['Histats.track_hits', '']);
+  (function () {
+    var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+    hs.src = ('//s10.histats.com/js15_gif_as.js');
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+  })();
+</script>
+<noscript>
+  <div id="histats_wrapper">
+    <a href="/" target="_blank"><div id="histatsC">
+      <img border="0" src="//s4is.histats.com/stats/i/4944258.gif?4944258&103">
+    </div></a>
+  </div>
+</noscript>
+<!-- Histats.com END -->
+
 </body>
-                                                          </html>
-    
+  </html>
