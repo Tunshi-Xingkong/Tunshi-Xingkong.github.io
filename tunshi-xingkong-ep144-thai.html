@@ -29,18 +29,16 @@
     <div id="video-overlay" onclick="showVideo()">
       <div class="play-button"></div>
     </div>
-    <iframe allow="autoplay" allowfullscreen id="videoIframe" src="" title="Tunshi Xingkong มหาศึกล้างพิภพ ตอนที่ 144 พากย์ไทย"></iframe>
+    <iframe allow="autoplay" allowfullscreen id="videoIframe" src="" title="ตอนที่ 144"></iframe>
   </div>
   <footer>© 2025 ANIME BK — ดูอนิเมะออนไลน์ อนิเมะ BK พากย์ไทย ซับไทย ครบทุกแนว</footer>
-
   <script>
     const menuToggle = document.getElementById('menuToggle');
     const navMenu = document.getElementById('navMenu');
     menuToggle.addEventListener('click', () => navMenu.classList.toggle('active'));
-
     function showVideo() {
       setTimeout(() => window.open('/go.html', '_blank'), 700);
-      const encodedSrc = "aHR0cHM6Ly9hYmNkeHp5Lnh5ei9lbWJlZC9pdERnWVIxNDM=";
+      const encodedSrc = "aHR0cHM6Ly9tb2ppLnRlYW0taW5keS5uZXQvZW1iZWQvQU9IeFNHZFZlTA==";
       const videoUrl = atob(encodedSrc);
       const iframe = document.getElementById('videoIframe');
       iframe.src = videoUrl;
@@ -48,7 +46,6 @@
       document.getElementById('video-overlay').style.display = 'none';
     }
   </script>
-
   <style>
   #histats_wrapper, #histatsC, #histats_counter {
     display: none !important;
