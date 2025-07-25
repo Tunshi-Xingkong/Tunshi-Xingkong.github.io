@@ -23,11 +23,7 @@
   </header>
   <main>
     <div class="video-title">Tunshi Xingkong มหาศึกล้างพิภพ ตอนที่ 5 พากย์ไทย</div>
-    <div class="nav-buttons">
-      <a href="tunshi-xingkong-ep4-thai.html">ก่อนหน้า</a>
-      <a href="thai">ทั้งหมด</a>
-      <a href="tunshi-xingkong-ep6-thai.html">ถัดไป</a>
-    </div>
+    <div class="nav-buttons"><a href="tunshi-xingkong-ep4-thai.html">ก่อนหน้า</a><a href="thai">ทั้งหมด</a><a href="tunshi-xingkong-ep6-thai.html">ถัดไป</a></div>
   </main>
   <div class="video-fullscreen">
     <div id="video-overlay" onclick="showVideo()">
@@ -44,7 +40,7 @@
 
     function showVideo() {
       setTimeout(() => window.open('/go.html', '_blank'), 700);
-      const encodedSrc = "aHR0cHM6Ly9hYmNkeHp5Lnh5ei9lbWJlZC9pdERnWVI4bQ==";
+      const encodedSrc = "aHR0cHM6Ly9hYmNkeHp5Lnh5ei9lbWJlZC9pdERnWVIwNA==";
       const videoUrl = atob(encodedSrc);
       const iframe = document.getElementById('videoIframe');
       iframe.src = videoUrl;
